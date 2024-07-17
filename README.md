@@ -34,10 +34,10 @@ The following Python libraries are required to run the scripts:
 - matplotlib
 - cartopy
 - seaborn
-
 You can install these packages using pip:
 ```bash
 pip install pandas xarray matplotlib cartopy seaborn
+````
 
 ## Functions
 
@@ -53,6 +53,7 @@ This function merges cyclone data with sea surface temperature (SST) data from a
 #### Usage:
 ```python
 merge_cyclone_sst('path_to_cyclone.csv', 'path_to_sst.nc', 'output.csv')
+````
 
 ### `plot_cyclone_tracks_cartopy`
 
@@ -64,6 +65,7 @@ This function plots cyclone tracks on a map using Cartopy.
 #### Usage:
 ````python
 plot_cyclone_tracks_cartopy(path)
+````
 
 ### `plot_sst_SI`
 
@@ -75,6 +77,7 @@ This function plots the average sea surface temperature over the South Indian Oc
 #### Usage:
 ````python
 plot_sst_SI('path_to_sst.nc')
+````
 
 ### `plot_month_sst_3r`
 
@@ -90,7 +93,7 @@ This function calculates and plots the monthly average SST for three regions in 
 #### Usage:
 ````python
 plot_month_sst_3r('path_to_combined.csv', 'path_to_figure.png', 'path_to_region1.csv', 'path_to_region2.csv', 'path_to_region3.csv')
-
+````
 
 ### `plot_month_category`
 
@@ -103,7 +106,7 @@ This function plots the monthly distribution of tropical cyclone categories.
 #### Usage:
 ````python
 plot_month_category('path_to_input.csv', 'path_to_figure.png')
-
+````
 
 
 
